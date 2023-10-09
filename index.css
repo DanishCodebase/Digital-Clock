@@ -1,0 +1,125 @@
+.bg-container {
+  background-image: url(./public/clock-ai-generated.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-color: var(--color-white);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+
+.digital-clock {
+  font-size: 62px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sec {
+  font-size: 120px;
+}
+
+.apna-time-aayega,
+.time {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.time {
+  font-size: 100px;
+}
+
+.apna-time-aayega {
+  font-size: 120px;
+  font-family: var(--font-akronim);
+}
+
+.bg-container>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .1);
+  height: 100%;
+}
+
+@media(max-width: 1000px) {
+
+  .apna-time-aayega,
+  .sec {
+    font-size: 90px;
+  }
+}
+
+@media(max-width: 880px) {
+
+  .apna-time-aayega,
+  .sec {
+    font-size: 80px;
+  }
+}
+
+@media(max-width: 768px) {
+
+  .apna-time-aayega,
+  .sec {
+    font-size: 70px;
+  }
+}
+
+@media(max-width: 700px) {
+
+  .apna-time-aayega,
+  .sec {
+    font-size: 65px;
+  }
+}
+
+@media(max-width: 600px) {
+
+  .apna-time-aayega,
+  .sec,
+  .digital-clock {
+    font-size: 50px;
+  }
+
+  .time {
+    font-size: 80px;
+  }
+}
+
+@media(max-width: 425px) {
+
+  .apna-time-aayega,
+  .digital-clock {
+    font-size: 40px;
+  }
+
+  .sec,
+  .time {
+    font-size: 60px;
+  }
+}
+
+@media(max-width: 360px) {
+
+  .apna-time-aayega {
+    font-size: 35px;
+  }
+
+  .apna-time-aayega,
+  .time {
+    margin-top: 25px;
+  }
+}
+
+@media(max-width: 320px) {
+
+  .apna-time-aayega {
+    font-size: 30px;
+  }
+
+  .sec,
+  .time {
+    font-size: 40px;
+  }
+}

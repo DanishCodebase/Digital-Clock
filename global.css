@@ -1,0 +1,16 @@
+html,body {
+  margin: 0;
+  line-height: normal;
+  height: 100%;
+}
+
+:root {
+  /* fonts */
+  --font-akronim: Akronim;
+  --font-poppins: Poppins;
+  --font-inter: Inter;
+
+  /* Colors */
+  --color-white: #fff;
+  
+}
