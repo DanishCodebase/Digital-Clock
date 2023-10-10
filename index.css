@@ -14,7 +14,8 @@
   text-align: center;
 }
 
-.sec {
+.sec,
+#ampm {
   font-size: 120px;
 }
 
@@ -45,7 +46,8 @@
 @media(max-width: 1000px) {
 
   .apna-time-aayega,
-  .sec {
+  .sec,
+  #ampm {
     font-size: 90px;
   }
 }
@@ -53,7 +55,8 @@
 @media(max-width: 880px) {
 
   .apna-time-aayega,
-  .sec {
+  .sec,
+  #ampm {
     font-size: 80px;
   }
 }
@@ -61,7 +64,8 @@
 @media(max-width: 768px) {
 
   .apna-time-aayega,
-  .sec {
+  .sec,
+  #ampm {
     font-size: 70px;
   }
 }
@@ -69,7 +73,8 @@
 @media(max-width: 700px) {
 
   .apna-time-aayega,
-  .sec {
+  .sec,
+  #ampm {
     font-size: 65px;
   }
 }
@@ -78,6 +83,7 @@
 
   .apna-time-aayega,
   .sec,
+  #ampm,
   .digital-clock {
     font-size: 50px;
   }
@@ -95,7 +101,8 @@
   }
 
   .sec,
-  .time {
+  .time,
+  #ampm {
     font-size: 60px;
   }
 }
@@ -119,7 +126,8 @@
   }
 
   .sec,
-  .time {
+  .time,
+  #ampm {
     font-size: 40px;
   }
 }
